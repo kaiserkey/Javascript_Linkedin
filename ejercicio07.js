@@ -123,5 +123,14 @@ function Persona(nombre, apellido){
     }
 }
 
+const juan = new Persona("Juan", "Perez");
+const melissa = new Persona("Melissa", "Flores");
+
+console.log(juan);
+console.log(melissa);
+
+juan.imprimirInfo();
+melissa.imprimirInfo();
+
 
 
