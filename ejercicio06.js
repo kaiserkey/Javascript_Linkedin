@@ -49,14 +49,14 @@ for (const color of colores) {
 
 //ciclo for each (nuevo en ES6) se usa para recorrer arreglos y objetos iterables
 
-colores.forEach(function(color) { // 
+colores.forEach(function(color) { // se puede usar una funcion anonima o una funcion flecha
     console.log(color);
     debugger;
 });
 
 //ciclo for each (nuevo en ES6) se usa para recorrer arreglos y objetos iterables
 
-colores.forEach(color => {
+colores.forEach(color => { // se puede usar una funcion anonima o una funcion flecha
     console.log(color);
     debugger;
 });
