@@ -46,3 +46,5 @@ for (const color of colores) {
     console.log(color);
     debugger;
 }
+
+//ciclo for each (nuevo en ES6) se usa para recorrer arreglos y objetos iterables
