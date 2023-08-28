@@ -14,3 +14,6 @@ function saludar2(){
     return "Hola Mundo";
 }
 
+console.log(saludar2());
+
+//funciones con parametros
