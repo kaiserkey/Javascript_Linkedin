@@ -88,4 +88,7 @@ for (const numero of numeros) {
     debugger;
 }
 
+//etiquetas
+
+
 
