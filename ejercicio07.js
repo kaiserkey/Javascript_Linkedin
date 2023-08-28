@@ -63,3 +63,4 @@ const miSaludo = saludoConFunciones("Juan", function(nombre){
     return `Hola ${nombre}`;
 });
 
+const miSaludo2 = saludoConFunciones("Juan", (nombre) => `Hola ${nombre}`);
