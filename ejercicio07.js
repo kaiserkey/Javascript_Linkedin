@@ -90,3 +90,9 @@ const btnSaludar = document.getElementById("btnSaludar");
 btnSaludar.addEventListener("click", function(){
     console.log("Saludando");
 });
+
+//funciones como objetos
+
+function saludarFunciones(nombre){
+    console.log(`Hola ${nombre}`);
+}
