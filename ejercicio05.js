@@ -30,4 +30,3 @@ switch (numero) {
     default:
         resultado = "No soy nada";
 }
-
