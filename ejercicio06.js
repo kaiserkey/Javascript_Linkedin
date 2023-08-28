@@ -63,4 +63,4 @@ colores.forEach(color => { // se puede usar una funcion anonima o una funcion fl
 
 //ciclo for each (nuevo en ES6) se usa para recorrer arreglos y objetos iterables
 
-
+colores.forEach(color => console.log(color)); // se puede usar una funcion anonima o una funcion flecha
