@@ -274,4 +274,10 @@ function Profesor4(nombre, apellido, pais, curso){
 
 Profesor4.prototype = new Persona5();
 
+const carlos4 = new Profesor4("Carlos", "Perez", "Colombia", "Programacion");
+
+console.log(carlos4);
+
+carlos4.imprimirInfo();
+
 
