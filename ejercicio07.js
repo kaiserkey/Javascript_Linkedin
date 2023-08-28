@@ -108,3 +108,5 @@ saludarFunciones.direccion = {
     }   
 };
 
+console.log(saludarFunciones);
+
