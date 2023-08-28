@@ -89,3 +89,10 @@ colores.forEach((color, index, arreglo) => {
 ); // se puede usar una funcion anonima o una funcion flecha
 
 //ciclo for each (nuevo en ES6) se usa para recorrer arreglos y objetos iterables
+
+colores.forEach((color, index, arreglo) => {
+    console.log(`${index} - ${color} - ${arreglo}`);
+    debugger;
+}
+); // se puede usar una funcion anonima o una funcion flecha
+
