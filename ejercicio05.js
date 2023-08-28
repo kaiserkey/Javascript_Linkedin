@@ -39,14 +39,18 @@ switch (numero) {
         console.log("No soy nada");
 }
 
-var a = 9
-var b = 5
-var c = 15
+var a = 12
+var b = 4
+var c = 5
 
-if((b > c) || !(a > c) && (b >= a)) {
-    console.log('Se ejecutó la primera condición');
-}
-
-if((c > b) || !(c > a) && (a >= b)) {
-    console.log('Se ejecutó la segunda condición');
-}
+if (a>b) {
+    if (b<c) {
+       console.log("El valor de b es: " + b);
+    }
+    else if (b>c) {
+       console.log("El valor de c es: " + c);
+    }
+ } 
+ else {
+    console.log("El valor de a es: " + a );
+ }
