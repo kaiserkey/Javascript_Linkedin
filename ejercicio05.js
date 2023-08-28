@@ -20,7 +20,7 @@ if (edad === 18) console.log("Puedes votar, será tu primera votación");
 else if (edad > 18) console.log("Puedes votar de nuevo");
 else console.log("Aún no puedes votar");
 
-//operador ternario
+//operador ternario se usa para asignar un valor a una variable dependiendo de una condición
 var numero = 1;
 var resultado = numero === 1 ? "Sí soy un uno" : "No, no soy uno";
 
