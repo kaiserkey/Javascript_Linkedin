@@ -165,5 +165,13 @@ function Persona3(nombre, apellido){
     this.pais = "Argentina";
 }
 
+Persona3.prototype.imprimirInfo = function(){
+    console.log(`${this.nombre} ${this.apellido} (${this.edad})`);
+}
 
+const juan3 = new Persona3("Juan", "Perez");
+const melissa3 = new Persona3("Melissa", "Flores");
+
+console.log(juan3);
+console.log(melissa3);
 
