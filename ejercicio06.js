@@ -69,6 +69,6 @@ colores.forEach((color, index) => console.log(`${index} - ${color}`)); // se pue
 
 colores.forEach((color, index, arreglo) => console.log(`${index} - ${color} - ${arreglo}`)); // se puede usar una funcion anonima o una funcion flecha, el arreglo es opcional y es el arreglo que se esta recorriendo
 
-
+//continue y 
 
 
