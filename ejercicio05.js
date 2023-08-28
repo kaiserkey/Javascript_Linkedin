@@ -11,8 +11,8 @@ if (edad === 18) {
 } else {
     console.log("Aún no puedes votar");
 }
-
 // if anidados (mala práctica) 
+
 
 
 //operador ternario
