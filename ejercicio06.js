@@ -25,3 +25,11 @@ do {
     debugger;
 }
 while (c > 0);
+
+//ciclo for in
+var persona = {
+    nombre: "Juan",
+    apellido: "Perez",
+    edad: 25
+}
+
