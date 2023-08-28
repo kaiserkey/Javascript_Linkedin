@@ -13,10 +13,7 @@ if (edad === 18) {
 }
 
 // if anidados (mala práctica) 
-var edad = 18;
-if (edad === 18) {
-    console.log("Puedes votar, será tu primera votación");
-}
+
 
 //operador ternario
 var numero = 1;
