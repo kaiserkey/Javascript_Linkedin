@@ -186,3 +186,11 @@ function Profesor(nombre, apellido, pais){
 
 Profesor.prototype = new Persona3();
 
+const carlos = new Profesor("Carlos", "Perez", "Colombia");
+
+console.log(carlos);
+
+carlos.imprimirInfo();
+
+
+
