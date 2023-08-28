@@ -216,5 +216,13 @@ juan4.imprimirInfo();
 melissa4.imprimirInfo();
 
 function Profesor2(nombre, apellido, pais){
-    
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.pais = pais;
+}
+
+Profesor2.prototype = new Persona4();
+
+const carlos2 = new Profesor2("Carlos", "Perez", "Colombia");
+
 
