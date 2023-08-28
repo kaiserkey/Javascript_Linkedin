@@ -175,3 +175,14 @@ const melissa3 = new Persona3("Melissa", "Flores");
 console.log(juan3);
 console.log(melissa3);
 
+juan3.imprimirInfo();
+melissa3.imprimirInfo();
+
+function Profesor(nombre, apellido, pais){
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.pais = pais;
+}
+
+Profesor.prototype = new Persona3();
+
