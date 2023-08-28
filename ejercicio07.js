@@ -96,3 +96,9 @@ btnSaludar.addEventListener("click", function(){
 function saludarFunciones(nombre){
     console.log(`Hola ${nombre}`);
 }
+
+saludarFunciones.nombre = "Juan";
+
+saludarFunciones.direccion = {
+    pais: "Argentina",
+    ciudad: "Buenos Aires",
