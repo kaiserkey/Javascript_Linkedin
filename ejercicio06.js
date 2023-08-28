@@ -1,3 +1,5 @@
 "use strict"
 
-//ciclos 
+//ciclos en javascript
+
+//ciclo for
