@@ -69,6 +69,15 @@ colores.forEach((color, index) => console.log(`${index} - ${color}`)); // se pue
 
 colores.forEach((color, index, arreglo) => console.log(`${index} - ${color} - ${arreglo}`)); // se puede usar una funcion anonima o una funcion flecha, el arreglo es opcional y es el arreglo que se esta recorriendo
 
-//continue y 
+//continue y break
+var numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+for (const numero of numeros) {
+    if (numero % 2 === 0) {
+        continue; //se salta el numero par
+    }
+    console.log(numero);
+    debugger;
+}
 
 
