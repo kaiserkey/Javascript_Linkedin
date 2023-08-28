@@ -95,8 +95,6 @@ const persona = ["Juan", 20, "Argentina"];
 
 saludarSpread(...persona);
 
-
-
 //parametro de tipo callback - funciones que se ejecutan despues de un evento
 
 const btnSaludar = document.getElementById("btnSaludar");
