@@ -246,4 +246,16 @@ carlos3.imprimirInfo();
 //funciones como objetos - funciones constructoras - prototipos - herencia - super - call
 
 function Persona5(nombre, apellido){
+    console.log("Me ejecutaron");
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.edad = 20;
+    this.pais = "Argentina";
+}
+
+Persona5.prototype.imprimirInfo = function(){
+    console.log(`${this.nombre} ${this.apellido} (${this.edad})`);
+}
+
+
 
