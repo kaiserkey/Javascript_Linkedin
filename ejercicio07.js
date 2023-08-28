@@ -8,3 +8,4 @@ function saludar(){
 
 saludar();
 
+//funciones con retorno
