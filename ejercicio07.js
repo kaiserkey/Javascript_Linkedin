@@ -153,5 +153,17 @@ console.log(juan2);
 console.log(melissa2);
 
 juan2.imprimirInfo();
+melissa2.imprimirInfo();
+
+//funciones como objetos - funciones constructoras - prototipos - herencia
+
+function Persona3(nombre, apellido){
+    console.log("Me ejecutaron");
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.edad = 20;
+    this.pais = "Argentina";
+}
+
 
 
