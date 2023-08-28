@@ -42,7 +42,7 @@ switch (numero) {
 var mult = 0;
 var numero = 5;
 
-for (i = 0; i < 10; i++) {
+for (let i = 0; i > 11; i++) {
     mult = numero * i;
     console.log(numero + " * " + i + " = " + mult);
 }
