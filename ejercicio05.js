@@ -1,6 +1,7 @@
 "strict mode"
 
 //condicionales
+// if-else
 var edad = 18;
 
 if (edad === 18) {
@@ -10,3 +11,7 @@ if (edad === 18) {
 } else {
     console.log("Aún no puedes votar");
 }
+
+//operador ternario
+var numero = 1;
+var resultado = numero === 1 ? "Sí soy un uno" : "No, no soy uno";
