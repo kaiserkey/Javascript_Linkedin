@@ -26,11 +26,10 @@ var resultado = numero === 1 ? "Sí soy un uno" : "No, no soy uno";
 
 //switch
 var numero = 1;
-var resultado;
 
 switch (numero) {
     case 1: 
-        resultado = "Soy uno";
+        console.log("Soy uno";
         break;
     case 2:
         resultado = "Soy un dos";
