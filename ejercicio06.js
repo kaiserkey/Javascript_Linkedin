@@ -18,3 +18,10 @@ while (b > 0) {
 }
 
 //ciclo do while
+var c = 5;
+do {
+    console.log(c);
+    c--;
+    debugger;
+}
+while (c > 0);
