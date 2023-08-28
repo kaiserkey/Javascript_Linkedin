@@ -2,7 +2,7 @@
 
 //condicionales
 // if-else
-var edad = 18;
+var edad = 19;
 
 if (edad == 18) {
     console.log("Puedes votar, será tu primera votación");
