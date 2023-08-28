@@ -89,7 +89,7 @@ const btnSaludar = document.getElementById("btnSaludar");
 
 btnSaludar.addEventListener("click", function(){
     console.log("Saludando");
-    this.
+    this.loca
 });
 
 //funciones como objetos
