@@ -79,4 +79,6 @@ setTimeout(() => {
 function saludarRest(nombre, ...rest){
     console.log(`Hola ${nombre}`);
     console.log(rest);
-}   
+}
+
+saludarRest("Juan", 20, true, "Argentina");
