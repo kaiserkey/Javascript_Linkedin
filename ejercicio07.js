@@ -74,3 +74,4 @@ setTimeout(() => {
     console.log("Hola Mundo");
 }, 3000);
 
+//parametro de tipo 
