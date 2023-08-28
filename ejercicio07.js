@@ -113,4 +113,13 @@ console.log(saludarFunciones);
 //funciones como objetos - funciones constructoras
 
 function Persona(nombre, apellido){ 
+    console.log("Me ejecutaron");
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.edad = 20;
+    this.pais = "Argentina";
+    this.imprimirInfo = function(){
+        console.log(`${this.nombre} ${this.apellido} (${this.edad})`);
+    }
+}
 
