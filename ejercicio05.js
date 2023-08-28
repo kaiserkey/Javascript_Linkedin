@@ -24,6 +24,7 @@ else console.log("Aún no puedes votar");
 var numero = 1;
 var resultado = numero === 1 ? "Sí soy un uno" : "No, no soy uno";
 
+
 //switch
 var numero = 1;
 
