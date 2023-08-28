@@ -235,5 +235,8 @@ function Profesor3(nombre, apellido, pais, curso){
     this.curso = curso;
 }
 
+Profesor3.prototype = new Persona4();
+
+const carlos3 = new Profesor3("Carlos", "Perez", "Colombia", "Programacion");
 
 
