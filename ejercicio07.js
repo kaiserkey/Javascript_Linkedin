@@ -82,3 +82,8 @@ function saludarRest(nombre, ...rest){
 }
 
 saludarRest("Juan", 20, true, "Argentina");
+
+//parametro de tipo spread - unir elementos de un arreglo en un solo elemento
+
+const arr1 = [1,2,3,4,5];
+const arr2 = [6,7,8,9,0];
