@@ -45,3 +45,9 @@ saludarConEdad("Juan", 30);
 //Arrow Functions - funciones flecha
 
 const saludarConApellido = (nombre = "Persona", apellido = "Apellido") => console.log(`Hola ${nombre} ${apellido}`);
+
+saludarConApellido();
+saludarConApellido("Juan", "Perez");
+
+const sumar = (a,b) => a + b;
+
