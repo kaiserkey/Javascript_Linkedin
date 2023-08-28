@@ -32,3 +32,9 @@ function saludarConProfesion(nombre = "Persona", profesion = "Analista de Sistem
 
 saludarConProfesion();
 saludarConProfesion("Juan", "Desarrollador");
+
+//funciones expresivas - funciones anonimas
+
+const saludarConEdad = function(nombre = "Persona", edad = 20){
+    console.log(`Hola ${nombre} mi edad es ${edad}`);
+}
