@@ -21,3 +21,7 @@ console.log(saludar2());
 function saludarConParametros(nombre, apellido){
     console.log(`Hola ${nombre} ${apellido}`);
 }
+
+saludarConParametros("Juan", "Perez");
+
+//funciones con parametros por defecto
