@@ -142,3 +142,7 @@ function Persona2(nombre, apellido){
     this.pais = "Argentina";
 }
 
+Persona2.prototype.imprimirInfo = function(){
+    console.log(`${this.nombre} ${this.apellido} (${this.edad})`);
+}
+
