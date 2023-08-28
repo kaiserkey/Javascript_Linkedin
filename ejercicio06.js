@@ -77,6 +77,7 @@ for (const numero of numeros) {
         continue; //se salta el numero par
     }
     console.log(numero);
+    
     debugger;
 }
 
