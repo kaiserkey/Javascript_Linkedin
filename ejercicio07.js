@@ -58,3 +58,8 @@ console.log(sumar(1,2));
 function saludoConFunciones(nombre, cb){
     return cb(nombre);
 }
+
+const miSaludo = saludoConFunciones("Juan", function(nombre){
+    return `Hola ${nombre}`;
+});
+
