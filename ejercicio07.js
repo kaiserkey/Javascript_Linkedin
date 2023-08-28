@@ -83,16 +83,11 @@ function saludarRest(nombre, ...rest){
 
 saludarRest("Juan", 20, true, "Argentina");
 
-//parametro de tipo spread - separar elementos de un arreglo
+//parametro de tipo spread en funciones
 
-const arr1 = [1,2,3,4,5];
-const arr2 = [6,7,8,9,0];
-
-console.log(arr1, arr2);
-
-const arr3 = [...arr1, ...arr2];
-
-console.log(arr3);
+function saludarSpread(nombre, edad, pais){
+    console.log(`Hola ${nombre}`);
+    console.log(`Edad ${edad}`);
 
 //parametro de tipo callback - funciones que se ejecutan despues de un evento
 
