@@ -69,6 +69,7 @@ console.log(miSaludo);
 
 console.log(miSaludo2);
 
+//setTimeout - ejecutar funciones despues de un tiempo
 setTimeout(() => {
     console.log("Hola Mundo");
 }, 3000);
