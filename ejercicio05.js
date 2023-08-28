@@ -13,6 +13,9 @@ if (edad === 18) {
 }
 // if anidados (mala práctica) 
 
+//if sin llaves
+var edad = 18;
+
 
 
 //operador ternario
