@@ -88,6 +88,14 @@ saludarRest("Juan", 20, true, "Argentina");
 function saludarSpread(nombre, edad, pais){
     console.log(`Hola ${nombre}`);
     console.log(`Edad ${edad}`);
+    console.log(`Pais ${pais}`);
+}
+
+const persona = ["Juan", 20, "Argentina"];
+
+saludarSpread(...persona);
+
+
 
 //parametro de tipo callback - funciones que se ejecutan despues de un evento
 
