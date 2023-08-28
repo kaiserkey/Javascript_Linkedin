@@ -21,15 +21,15 @@ var numero = 1;
 var resultado;
 
 switch (numero) {
-    case 1: {
+    case 1: 
         resultado = "Soy uno";
         break;
-    }
-    case 10: {
+    
+    case 10: 
         resultado = "Soy un 10";
         break;
-    }
-    default: {  
+    
+    default:   
         resultado = "No soy nada";
-    }
+    
 }
