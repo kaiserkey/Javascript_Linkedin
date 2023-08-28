@@ -86,3 +86,7 @@ saludarRest("Juan", 20, true, "Argentina");
 //parametro de tipo callback - funciones que se ejecutan despues de un evento
 
 const btnSaludar = document.getElementById("btnSaludar");
+
+btnSaludar.addEventListener("click", function(){
+    console.log("Saludando");
+});
