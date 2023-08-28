@@ -1,1 +1,3 @@
 "strict mode"
+
+//condicionales
