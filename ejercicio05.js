@@ -18,3 +18,7 @@ var resultado = numero === 1 ? "Sí soy un uno" : "No, no soy uno";
 
 //switch
 var numero = 1;
+var resultado;
+
+switch (numero) {
+    case 1: {
