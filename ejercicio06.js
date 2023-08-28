@@ -33,3 +33,8 @@ var persona = {
     edad: 25
 }
 
+for (const propiedad in persona) {
+    console.log(propiedad);
+    console.log(persona[propiedad]);
+    debugger;
+}
