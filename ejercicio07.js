@@ -317,3 +317,13 @@ console.log(carlos5);
 
 carlos5.imprimirInfo();
 
+//funciones como objetos - funciones constructoras - prototipos - herencia - super - call - apply - bind
+
+function Persona7(nombre, apellido){
+    console.log("Me ejecutaron");
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.edad = 20;
+    this.pais = "Argentina";
+}
+
