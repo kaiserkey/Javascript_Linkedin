@@ -25,11 +25,10 @@ switch (numero) {
         resultado = "Soy uno";
         break;
     
-    case 10: 
+    case 2:
         resultado = "Soy un 10";
         break;
     
-    default:   
+    default:
         resultado = "No soy nada";
-    
 }
