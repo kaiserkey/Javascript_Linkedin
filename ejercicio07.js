@@ -280,4 +280,15 @@ console.log(carlos4);
 
 carlos4.imprimirInfo();
 
+//funciones como objetos - funciones constructoras - prototipos - herencia - super - call - apply
+
+function Persona6(nombre, apellido){
+    console.log("Me ejecutaron");
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.edad = 20;
+    this.pais = "Argentina";
+}
+
+Persona6.prototype.imprimirInfo = function(){
 
