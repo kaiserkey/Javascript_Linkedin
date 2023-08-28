@@ -51,3 +51,10 @@ saludarConApellido("Juan", "Perez");
 
 const sumar = (a,b) => a + b;
 
+console.log(sumar(1,2));
+
+//funciones como parametros de otras funciones
+
+function saludoConFunciones(nombre, cb){
+    return cb(nombre);
+}
