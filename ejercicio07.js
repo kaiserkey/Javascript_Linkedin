@@ -146,3 +146,12 @@ Persona2.prototype.imprimirInfo = function(){
     console.log(`${this.nombre} ${this.apellido} (${this.edad})`);
 }
 
+const juan2 = new Persona2("Juan", "Perez");
+const melissa2 = new Persona2("Melissa", "Flores");
+
+console.log(juan2);
+console.log(melissa2);
+
+juan2.imprimirInfo();
+
+
