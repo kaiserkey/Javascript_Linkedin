@@ -57,3 +57,6 @@ colores.forEach(function(color) {
 //ciclo for each (nuevo en ES6) se usa para recorrer arreglos y objetos iterables
 
 colores.forEach(color => {
+    console.log(color);
+    debugger;
+});
