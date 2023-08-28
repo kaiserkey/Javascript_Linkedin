@@ -67,3 +67,9 @@ const miSaludo2 = saludoConFunciones("Juan", (nombre) => `Hola ${nombre}`);
 
 console.log(miSaludo);
 
+console.log(miSaludo2);
+
+setTimeout(() => {
+    console.log("Hola Mundo");
+}, 3000);
+
