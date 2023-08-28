@@ -132,5 +132,13 @@ console.log(melissa);
 juan.imprimirInfo();
 melissa.imprimirInfo();
 
+//funciones como objetos - funciones constructoras - prototipos
 
+function Persona2(nombre, apellido){
+    console.log("Me ejecutaron");
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.edad = 20;
+    this.pais = "Argentina";
+}
 
