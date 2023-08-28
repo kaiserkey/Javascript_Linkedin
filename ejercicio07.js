@@ -74,4 +74,9 @@ setTimeout(() => {
     console.log("Hola Mundo");
 }, 3000);
 
-//parametro de tipo 
+//parametro de tipo rest - agrupar elementos en un arreglo
+
+function saludarRest(nombre, ...rest){
+    console.log(`Hola ${nombre}`);
+    console.log(rest);
+}   
