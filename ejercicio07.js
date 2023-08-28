@@ -85,6 +85,12 @@ saludarRest("Juan", 20, true, "Argentina");
 
 //parametro de tipo spread - separar elementos de un arreglo
 
+const arr1 = [1,2,3,4,5];
+const arr2 = [6,7,8,9,0];
+
+console.log(arr1, arr2);
+
+
 
 //parametro de tipo callback - funciones que se ejecutan despues de un evento
 
