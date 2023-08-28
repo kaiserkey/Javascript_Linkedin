@@ -49,7 +49,7 @@ const saludarConApellido = (nombre = "Persona", apellido = "Apellido") => consol
 saludarConApellido();
 saludarConApellido("Juan", "Perez");
 
-const sumar = (a,b) => {a + b};
+const sumar = (a,b) => { a + b };
 
 console.log(sumar(1,2));
 
