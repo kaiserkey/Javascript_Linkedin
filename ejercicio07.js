@@ -38,3 +38,8 @@ saludarConProfesion("Juan", "Desarrollador");
 const saludarConEdad = function(nombre = "Persona", edad = 20){
     console.log(`Hola ${nombre} mi edad es ${edad}`);
 }
+
+saludarConEdad();
+saludarConEdad("Juan", 30);
+
+//Arrow Functions - funciones flecha
