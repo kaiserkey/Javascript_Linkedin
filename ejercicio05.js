@@ -22,3 +22,6 @@ var resultado;
 
 switch (numero) {
     case 1: {
+        resultado = "Soy uno";
+        break;
+    }
