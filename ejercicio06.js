@@ -88,7 +88,7 @@ for (const numero of numeros) {
     debugger;
 }
 
-//etiquetas en ciclos for (no es recomendable usarlas): se usan para romper ciclos anidados o para saltar ciclos anidados y consiste en 
+//etiquetas en ciclos for (no es recomendable usarlas): se usan para romper ciclos anidados o para saltar ciclos anidados y consiste en poner una etiqueta antes del ciclo y luego llamarla en el break o continue, la etiqueta debe ser un identificador valido y no debe ser una palabra reservada
 for_principal: for (let i = 0; i < 5; i++) {
     console.log(`i: ${i}`);
     for_secundario: for (let j = 0; j < 5; j++) {
