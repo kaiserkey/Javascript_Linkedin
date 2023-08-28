@@ -291,4 +291,15 @@ function Persona6(nombre, apellido){
 }
 
 Persona6.prototype.imprimirInfo = function(){
+    console.log(`${this.nombre} ${this.apellido} (${this.edad})`);
+}
+
+const juan6 = new Persona6("Juan", "Perez");
+const melissa6 = new Persona6("Melissa", "Flores");
+
+console.log(juan6);
+console.log(melissa6);
+
+juan6.imprimirInfo();
+
 
