@@ -29,11 +29,11 @@ var numero = 1;
 
 switch (numero) {
     case 1: 
-        console.log("Soy uno";
+        console.log("Soy uno");
         break;
     case 2:
-        resultado = "Soy un dos";
+        console.log("Soy un dos");
         break;
     default:
-        resultado = "No soy nada";
+        console.log("No soy nada");
 }
