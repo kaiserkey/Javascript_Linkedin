@@ -225,4 +225,15 @@ Profesor2.prototype = new Persona4();
 
 const carlos2 = new Profesor2("Carlos", "Perez", "Colombia");
 
+console.log(carlos2);
+
+carlos2.imprimirInfo();
+
+function Profesor3(nombre, apellido, pais, curso){
+    this.super = Persona4;
+    this.super(nombre, apellido, pais);
+    this.curso = curso;
+}
+
+
 
