@@ -38,3 +38,6 @@ for (const propiedad in persona) {
     console.log(persona[propiedad]); 
     debugger;
 }
+
+//ciclo for of
+var colores = ["rojo", "verde", "azul"];
