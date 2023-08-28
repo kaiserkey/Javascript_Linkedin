@@ -257,5 +257,15 @@ Persona5.prototype.imprimirInfo = function(){
     console.log(`${this.nombre} ${this.apellido} (${this.edad})`);
 }
 
+const juan5 = new Persona5("Juan", "Perez");
+const melissa5 = new Persona5("Melissa", "Flores");
 
+console.log(juan5);
+console.log(melissa5);
+
+juan5.imprimirInfo();
+melissa5.imprimirInfo();
+
+function Profesor4(nombre, apellido, pais, curso){
+    
 
