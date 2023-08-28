@@ -35,6 +35,6 @@ var persona = {
 
 for (const propiedad in persona) {
     console.log(propiedad);
-    console.log(persona[propiedad]);
+    console.log(persona[propiedad]); 
     debugger;
 }
