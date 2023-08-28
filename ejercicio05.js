@@ -39,14 +39,10 @@ switch (numero) {
         console.log("No soy nada");
 }
 
-var a = 5
-var b = 12
-var c = 4
+var mult = 0;
+var numero = 5;
 
-if ((b > c) && !(c < a)) {
-    console.log('Se ejecutó la primera condición');
-} else if (!(b >= a) && (c > !b)) {
-    console.log('Se ejecutó la segunda condición');
-} else {
-    console.log('Se ejecutó el último else')
+for (let i = 0; i < 11; i++) {
+    mult = numero * i;
+    console.log(numero + " * " + i + " = " + mult);
 }
