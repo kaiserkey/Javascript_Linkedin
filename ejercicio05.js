@@ -41,10 +41,10 @@ switch (numero) {
 
 var num = 5;
 var i = 0;
-var texto = "*";
+var texto = "";
 
-while (i < num) {
+while (i <= num) {
     texto = texto + "*";
     console.log(texto);
-    i++
+    i += 1;
 }
