@@ -1,3 +1,3 @@
 "use strict"
 
-//funciones 
+//funciones en javascript
