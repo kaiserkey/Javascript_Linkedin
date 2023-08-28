@@ -25,3 +25,7 @@ function saludarConParametros(nombre, apellido){
 saludarConParametros("Juan", "Perez");
 
 //funciones con parametros por defecto
+
+function saludarConProfesion(nombre = "Persona", profesion = "Analista de Sistemas"){
+    console.log(`Hola ${nombre} mi profesion es ${profesion}`);
+}
