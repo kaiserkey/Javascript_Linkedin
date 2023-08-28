@@ -267,5 +267,11 @@ juan5.imprimirInfo();
 melissa5.imprimirInfo();
 
 function Profesor4(nombre, apellido, pais, curso){
-    
+    this.super = Persona5;
+    this.super(nombre, apellido);
+    this.curso = curso;
+}
+
+Profesor4.prototype = new Persona5();
+
 
