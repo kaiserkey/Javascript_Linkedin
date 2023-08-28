@@ -9,3 +9,8 @@ function saludar(){
 saludar();
 
 //funciones con retorno
+
+function saludar2(){
+    return "Hola Mundo";
+}
+
