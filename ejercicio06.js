@@ -26,7 +26,7 @@ do {
 }
 while (c > 0);
 
-//ciclo for in
+//ciclo for in se usa para recorrer propiedades de un objeto
 var persona = {
     nombre: "Juan",
     apellido: "Perez",
@@ -39,7 +39,7 @@ for (const propiedad in persona) {
     debugger;
 }
 
-//ciclo for of (nuevo en ES6) se usa para recorrer arreglos 
+//ciclo for of (nuevo en ES6) se usa para recorrer arreglos y objetos iterables
 var colores = ["rojo", "verde", "azul"];
 
 for (const color of colores) {  
