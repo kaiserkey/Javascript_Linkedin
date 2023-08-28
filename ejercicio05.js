@@ -12,6 +12,11 @@ if (edad === 18) {
     console.log("Aún no puedes votar");
 }
 
+// if anidados
+var edad = 18;
+if (edad === 18) {
+    
+
 //operador ternario
 var numero = 1;
 var resultado = numero === 1 ? "Sí soy un uno" : "No, no soy uno";
