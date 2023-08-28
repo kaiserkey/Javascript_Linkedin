@@ -25,3 +25,7 @@ switch (numero) {
         resultado = "Soy uno";
         break;
     }
+    case 10: {
+        resultado = "Soy un 10";
+        break;
+    }
