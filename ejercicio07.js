@@ -17,3 +17,7 @@ function saludar2(){
 console.log(saludar2());
 
 //funciones con parametros
+
+function saludarConParametros(nombre, apellido){
+    console.log(`Hola ${nombre} ${apellido}`);
+}
