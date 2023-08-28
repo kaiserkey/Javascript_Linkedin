@@ -206,3 +206,15 @@ Persona4.prototype.imprimirInfo = function(){
     console.log(`${this.nombre} ${this.apellido} (${this.edad})`);
 }
 
+const juan4 = new Persona4("Juan", "Perez");
+const melissa4 = new Persona4("Melissa", "Flores");
+
+console.log(juan4);
+console.log(melissa4);
+
+juan4.imprimirInfo();
+melissa4.imprimirInfo();
+
+function Profesor2(nombre, apellido, pais){
+    
+
