@@ -83,6 +83,9 @@ function saludarRest(nombre, ...rest){
 
 saludarRest("Juan", 20, true, "Argentina");
 
+//parametro de tipo spread - separar elementos de un arreglo
+
+
 //parametro de tipo callback - funciones que se ejecutan despues de un evento
 
 const btnSaludar = document.getElementById("btnSaludar");
