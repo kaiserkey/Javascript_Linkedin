@@ -12,7 +12,7 @@ if (edad === 18) {
     console.log("Aún no puedes votar");
 }
 
-// if anidados
+// if anidados (mala práctica) 
 var edad = 18;
 if (edad === 18) {
     console.log("Puedes votar, será tu primera votación");
