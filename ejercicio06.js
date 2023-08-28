@@ -39,7 +39,7 @@ for (const propiedad in persona) {
     debugger;
 }
 
-//ciclo for of
+//ciclo for of (nuevo en ES6) se usa para recorrer arreglos 
 var colores = ["rojo", "verde", "azul"];
 
 for (const color of colores) {  
