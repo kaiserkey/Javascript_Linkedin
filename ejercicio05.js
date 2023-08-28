@@ -39,10 +39,15 @@ switch (numero) {
         console.log("No soy nada");
 }
 
-var mult = 0;
-var numero = 5;
+var y = 5;
+var texto = "";
 
-for (let i = 0; i > 11; i++) {
-    mult = numero * i;
-    console.log(numero + " * " + i + " = " + mult);
-}
+do{
+    for (let x = 0; x < y; x++) {
+        texto = texto + "*";
+    }
+    console.log(texto)
+    texto = "";
+    y--;
+} 
+while (y>0);
