@@ -102,3 +102,9 @@ saludarFunciones.nombre = "Juan";
 saludarFunciones.direccion = {
     pais: "Argentina",
     ciudad: "Buenos Aires",
+    edificio: {
+        piso: "8vo",
+        nombre: "Edificio Principal"
+    }   
+};
+
