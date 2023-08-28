@@ -29,4 +29,4 @@ switch (numero) {
         resultado = "Soy un 10";
         break;
     }
-    case default: {
+    default: {  
