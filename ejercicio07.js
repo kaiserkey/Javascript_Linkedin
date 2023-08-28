@@ -110,3 +110,7 @@ saludarFunciones.direccion = {
 
 console.log(saludarFunciones);
 
+//funciones como objetos - funciones constructoras
+
+function Persona(nombre, apellido){ 
+
