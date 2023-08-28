@@ -13,7 +13,7 @@ if (edad === 18) {
 }
 // if anidados (mala práctica) 
 
-//if sin llaves
+//if sin llaves, se usa cuando solo hay una línea de código
 var edad = 18;
 
 if (edad === 18) console.log("Puedes votar, será tu primera votación");
