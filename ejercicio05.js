@@ -23,7 +23,7 @@ else console.log("Aún no puedes votar");
 //operador ternario se usa para asignar un valor a una variable dependiendo de una condición
 var numero = 1;
 var resultado = numero === 1 ? "Sí soy un uno" : "No, no soy uno";
-
+console.log(resultado);
 
 //switch
 var numero = 1;
