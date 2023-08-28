@@ -301,5 +301,19 @@ console.log(juan6);
 console.log(melissa6);
 
 juan6.imprimirInfo();
+melissa6.imprimirInfo();
 
+function Profesor5(nombre, apellido, pais, curso){
+    this.super = Persona6;
+    this.super(nombre, apellido);
+    this.curso = curso;
+}
+
+Profesor5.prototype = new Persona6();
+
+const carlos5 = new Profesor5("Carlos", "Perez", "Colombia", "Programacion");
+
+console.log(carlos5);
+
+carlos5.imprimirInfo();
 
