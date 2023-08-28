@@ -239,4 +239,11 @@ Profesor3.prototype = new Persona4();
 
 const carlos3 = new Profesor3("Carlos", "Perez", "Colombia", "Programacion");
 
+console.log(carlos3);
+
+carlos3.imprimirInfo();
+
+//funciones como objetos - funciones constructoras - prototipos - herencia - super - call
+
+function Persona5(nombre, apellido){
 
