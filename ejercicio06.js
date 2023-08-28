@@ -77,7 +77,14 @@ for (const numero of numeros) {
         continue; //se salta el numero par
     }
     console.log(numero);
-    
+    debugger;
+}
+
+for (const numero of numeros) {
+    if (numero === 5) {
+        break; //se sale del ciclo
+    }
+    console.log(numero);
     debugger;
 }
 
