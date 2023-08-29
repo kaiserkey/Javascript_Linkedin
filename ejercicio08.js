@@ -4,18 +4,18 @@
 const boton = document.getElementById("boton");
 
 //evento click (cuando se pulsa el botón)
-boton.addEventListener("click", ()=>{
+boton.addEventListener("click", (event)=>{
     console.log("Has pulsado el botón");
     console.log();
 });
 
 //evento mouseover (cuando se pasa el ratón por encima del botón)
-boton.addEventListener("mouseover", ()=> {
+boton.addEventListener("mouseover", (event)=> {
     console.log("Has pasado el ratón por encima");
 });
 
 //evento mouseout (cuando se sale del botón)
-boton.addEventListener("mouseout", ()=> {
+boton.addEventListener("mouseout", (event)=> {
     console.log("Has salido del botón");
 });
 
