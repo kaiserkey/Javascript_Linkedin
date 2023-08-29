@@ -8,5 +8,5 @@ function setColor(){
 //setInterval sirve para ejecutar una función cada cierto tiempo
 var temporizador = setInterval(setColor, 2000);
 //setTimeout sirve para ejecutar una función una sola vez después de cierto tiempo
-var temporizador2 = setInterval(setColor, 2000);
+var temporizador2 = setTimeout(stopChangeColor, 10000);
 function stopChangeColor(){}
