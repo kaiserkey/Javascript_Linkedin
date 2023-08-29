@@ -39,7 +39,9 @@ input[0].addEventListener("keypress", (event)=> {
 });
 
 //evento load (cuando se carga la página)
-window.addEventListener("load", (event)=> {
+window.addEventListener("load", (event)=> { 
+    console.log("La página se ha cargado");
+});
 
 
 
