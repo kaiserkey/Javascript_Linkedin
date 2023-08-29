@@ -20,7 +20,9 @@ boton.addEventListener("mouseout", ()=> {
 
 //evento keydown
 
-const input = document.getElementB("input");
+const input = document.getElementsByTagName("input");
+
+input[0].addEventListener("keydown", ()=> {
 
 
 
