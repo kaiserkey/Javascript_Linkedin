@@ -8,7 +8,7 @@ boton.addEventListener("click", ()=>{
 });
 
 boton.addEventListener("mouseover", ()=> {
-    alert("Has pasado el ratón por encima");
+    console.log("Has pasado el ratón por encima");
 });
 
 boton.addEventListener("mouseout", ()=> {
