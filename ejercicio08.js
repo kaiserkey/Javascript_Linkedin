@@ -24,7 +24,7 @@ const input = document.getElementsByTagName("input");
 //el input 0 es el primer input del documento
 input[0].addEventListener("keydown", (event)=> { 
     console.log("Has pulsado una tecla");
-    console.log(String(event.key));
+    console.log(event.key);
 });
 
 //evento keyup (cuando se suelta una tecla)
