@@ -3,7 +3,7 @@
 //eventos javascript 
 const boton = document.getElementById("boton");
 
-//evento click 
+//evento click (cuando se pulsa el botón)
 boton.addEventListener("click", ()=>{
     console.log("Has pulsado el botón");
 });
@@ -25,6 +25,9 @@ const input = document.getElementsByTagName("input");
 input[0].addEventListener("keydown", ()=> { 
     console.log("Has pulsado una tecla");
 });
+
+//evento keyup (cuando se suelta una tecla)
+input[0].addEventListener("keyup", ()=> {
 
 
 
