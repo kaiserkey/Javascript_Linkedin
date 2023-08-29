@@ -1,4 +1,7 @@
 "use strict"
 
 //setInterval
-function ()
+function setColor(){
+    let pagina = document.body;
+    
+}
