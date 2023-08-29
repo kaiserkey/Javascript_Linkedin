@@ -4,7 +4,7 @@
 const boton = document.getElementById("boton");
 
 boton.addEventListener("click", ()=>{
-    alert("Has pulsado el botón");
+    console.log("Has pulsado el botón");
 });
 
 boton.addEventListener("mouseover", ()=> {
@@ -12,6 +12,6 @@ boton.addEventListener("mouseover", ()=> {
 });
 
 boton.addEventListener("mouseout", ()=> {
-    alert("Has salido del botón");
+    console.log("Has salido del botón");
 });
 
