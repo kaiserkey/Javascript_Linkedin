@@ -6,6 +6,6 @@ function setColor(){
     pagina.style.backgroundColor = pagina.style.backgroundColor == "red" ? "green" : "red";
 }
 
-
+var temporizador = setInterval
 
 function stopChangeColor(){}
