@@ -38,6 +38,9 @@ input[0].addEventListener("keypress", (event)=> {
     console.log("Estás pulsando una tecla");
 });
 
+//evento load (cuando se carga la página)
+window.addEventListener("load", (event)=> {
+
 
 
 
