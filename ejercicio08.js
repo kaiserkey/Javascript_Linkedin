@@ -22,7 +22,7 @@ boton.addEventListener("mouseout", ()=> {
 
 const input = document.getElementsByTagName("input");
 
-    
+//el input 
 input[0].addEventListener("keydown", ()=> { 
     console.log("Has pulsado una tecla");
 });
