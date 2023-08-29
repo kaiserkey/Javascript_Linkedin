@@ -31,7 +31,10 @@ input[0].addEventListener("keyup", ()=> {
     console.log("Has soltado una tecla");
 });
 
-
+//evento keypress (cuando se pulsa una tecla)
+input[0].addEventListener("keypress", ()=> { 
+    console.log("Estás pulsando una tecla");
+});
 
 
 
