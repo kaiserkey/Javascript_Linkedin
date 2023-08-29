@@ -1,3 +1,3 @@
 "use strict"
 
-const boton = document.
+const boton = document.getElementById
