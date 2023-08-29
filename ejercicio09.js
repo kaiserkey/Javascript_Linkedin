@@ -6,4 +6,6 @@ function setColor(){
     pagina.style.backgroundColor = pagina.style.backgroundColor == "red" ? "green" : "red";
 }
 
+
+
 function stopChangeColor(){}
