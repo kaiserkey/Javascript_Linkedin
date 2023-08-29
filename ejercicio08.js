@@ -18,7 +18,9 @@ boton.addEventListener("mouseout", ()=> {
     console.log("Has salido del botón");
 });
 
+//evento keydown
 
+const input = document.getElementBy("input");
 
 
 
