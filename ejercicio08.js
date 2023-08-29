@@ -27,7 +27,11 @@ input[0].addEventListener("keydown", ()=> {
 });
 
 //evento keyup (cuando se suelta una tecla)
-input[0].addEventListener("keyup", ()=> {
+input[0].addEventListener("keyup", ()=> { 
+    console.log("Has soltado una tecla");
+});
+
+
 
 
 
