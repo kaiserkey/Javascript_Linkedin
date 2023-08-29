@@ -1,3 +1,5 @@
 "use strict"
 
-const boton = document.getElementById
+//eventos javascript 
+const boton = document.getElementById("boton");
+
