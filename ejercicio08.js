@@ -3,10 +3,10 @@
 //eventos javascript 
 const boton = document.getElementById("boton");
 
-boton.addEventListener("click", function(){
+boton.addEventListener("click", ()=>{
     alert("Has pulsado el botón");
 });
 
-boton.addEventListener("mouseover", function(){
+boton.addEventListener("mouseover", ()=> {
     alert("Has pasado el ratón por encima");
 });
