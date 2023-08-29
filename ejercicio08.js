@@ -6,6 +6,7 @@ const boton = document.getElementById("boton");
 //evento click (cuando se pulsa el botón)
 boton.addEventListener("click", (event)=>{
     console.log("Has pulsado el botón");
+    console.log
 });
 
 //evento mouseover (cuando se pasa el ratón por encima del botón)
