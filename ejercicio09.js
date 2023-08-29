@@ -6,6 +6,7 @@ function setColor(){
 }
 
 function stopChangeColor(){
+    console.log("Se detuvo el cambio de color")
     clearInterval(temporizador);
     clearTimeout(temporizador2);
 }
