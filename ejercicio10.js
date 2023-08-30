@@ -9,5 +9,5 @@ boton.addEventListener("click", ()=>{
 var boton2 = document.getElementsByTagName("button")[1];
 
 boton2.addEventListener("click", ()=>{ 
-    confirm("Esto es una ventana de confirmación");
+    let booconfirm("Esto es una ventana de confirmación");
 });
