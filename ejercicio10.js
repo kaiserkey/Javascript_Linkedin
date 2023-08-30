@@ -17,3 +17,7 @@ boton2.addEventListener("click", ()=>{
         alert("Has pulsado cancelar");
     }
 });
+
+var boton3 = document.getElementsByTagName("button")[2];
+
+boton3.addEventListener("click", ()=>{
