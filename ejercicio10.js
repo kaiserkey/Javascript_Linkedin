@@ -1,3 +1,3 @@
 "use strict"
 
-var boton = document.getElementById("boton");
+var boton = document.getElementBy
