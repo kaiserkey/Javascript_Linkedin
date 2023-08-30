@@ -28,5 +28,4 @@ boton3.addEventListener("click", ()=>{
     }else{
         alert("No has escrito nada");
     }
-    redirect 
 });
