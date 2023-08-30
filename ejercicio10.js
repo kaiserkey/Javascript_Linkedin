@@ -11,4 +11,5 @@ var boton2 = document.getElementsByTagName("button")[1];
 boton2.addEventListener("click", ()=>{ 
     let valor = confirm("Esto es una ventana de confirmación");
     console.log(valor);
+    if 
 });
