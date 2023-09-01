@@ -13,9 +13,9 @@ console.log("NaN: " + Number.NaN);
 var numero = "10.5";
 console.log("parseInt: " + parseInt(numero)); // convierte a entero
 console.log("parseFloat: " + parseFloat(numero)); // convierte a flotante
-console.log("isNaN: " + isNaN(numero)); 
-console.log("isInteger: " + Number.isInteger(numero));
-console.log("isSafeInteger: " + Number.isSafeInteger(numero));
+console.log("isNaN: " + isNaN(numero)); // comprueba si es un numero
+console.log("isInteger: " + Number.isInteger (numero)); // comprueba si es un entero
+console.log("isSafeInteger: " + Number.isSafeInteger(numero)); // comprueba si es un entero seguro 
 console.log("toExponential: " + numero.toExponential(4));
 console.log("toFixed: " + numero.toFixed(4));
 console.log("toPrecision: " + numero.toPrecision(4));
