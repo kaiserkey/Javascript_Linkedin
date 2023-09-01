@@ -14,3 +14,5 @@ var numero = "10.5";
 console.log("parseInt: " + parseInt(numero));
 console.log("parseFloat: " + parseFloat(numero));
 console.log("isNaN: " + isNaN(numero));
+console.log("isInteger: " + Number.isInteger(numero));
+console.log("isSafeInteger: " + Number.isSafeInteger(numero));
