@@ -21,4 +21,4 @@ console.log("toExponential: " + numero2.toExponential(4)); // convierte a notaci
 console.log("toFixed: " + numero2.toFixed(4)); // convierte a notacion fija con 4 decimales
 console.log("toPrecision: " + numero2.toPrecision(4)); // convierte a notacion fija con 4 decimales
 console.log("toString: " + numero2.toString()); // convierte a cadena
-console.log("valueOf: " + numero2.valueOf()); // devuelve el valor primitivo del objeto
+console.log("valueOf: " + numero.valueOf()); // devuelve el valor primitivo del objeto especificado (numero) 
