@@ -16,3 +16,6 @@ console.log("parseFloat: " + parseFloat(numero));
 console.log("isNaN: " + isNaN(numero));
 console.log("isInteger: " + Number.isInteger(numero));
 console.log("isSafeInteger: " + Number.isSafeInteger(numero));
+console.log("toExponential: " + numero.toExponential(4));
+console.log("toFixed: " + numero.toFixed(4));
+console.log("toPrecision: " + numero.toPrecision(4));
