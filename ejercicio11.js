@@ -10,3 +10,7 @@ console.log("NaN: " + Number.NaN);
 
 // metodos para trabajar con numeros
 
+var numero = "10.5";
+console.log("parseInt: " + parseInt(numero));
+console.log("parseFloat: " + parseFloat(numero));
+console.log("isNaN: " + isNaN(numero));
