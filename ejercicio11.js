@@ -18,6 +18,6 @@ console.log("isInteger: " + Number.isInteger (numero)); // comprueba si es un en
 console.log("isSafeInteger: " + Number.isSafeInteger(numero)); // comprueba si es un entero seguro (no se desborda) 
 console.log("toExponential: " + numero.toExponential(4)); // convierte a notacion exponencial con 4 decimales
 console.log("toFixed: " + numero.toFixed(4)); // convierte a notacion fija con 4 decimales
-console.log("toPrecision: " + numero.toPrecision(4));
-console.log("toString: " + numero.toString());
-console.log("valueOf: " + numero.valueOf());
+console.log("toPrecision: " + numero.toPrecision(4)); // convierte a notacion fija con 4 decimales
+console.log("toString: " + numero.toString()); // convierte a cadena
+console.log("valueOf: " + numero.valueOf()); 
