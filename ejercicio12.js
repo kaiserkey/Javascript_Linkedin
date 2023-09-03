@@ -32,3 +32,5 @@ console.log(`La palabra aprendiendo empieza en la posición: ${mensaje.substring
 console.log(`La palabra aprendiendo empieza en la posición: ${mensaje.slice(6,17)}`); //slice(posición inicial, posición final)
 
 
+
+
