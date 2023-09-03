@@ -67,5 +67,10 @@ console.log(`Divide el string en un array de strings: ${mensaje.split(" ")}`); /
 //split (divide el string en un array de strings)
 console.log(`Divide el string en un array de strings: ${mensaje.split(" ", 3)}`); //split("separador", límite)
 
+//toUpperCase (convierte el string a mayúsculas)
+console.log(`Convierte el string a mayúsculas: ${mensaje.toUpperCase()}`);
+
+//toLowerCase (convierte el string a minúsculas)
+console.log(`Convierte el string a minúsculas: ${mensaje.toLowerCase()}`);
 
 
