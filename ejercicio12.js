@@ -4,7 +4,7 @@
 
 var mensaje = "Estoy aprendiendo Javascript y estoy aprendiendo mucho";
 
-//tamaño de un string
+//length (devuelve la longitud del string)
 console.log(`El texto tiene una longitud de: ${mensaje.length}`);
 
 //indexOf (devuelve la posición de la primera coincidencia)
@@ -20,3 +20,4 @@ console.log(`La palabra Javascript empieza en la posición: ${mensaje.search("Ja
 console.log(`La palabra Javascript empieza en la posición: ${mensaje.search(/ja/i)}`); 
 
 //match (devuelve un array con los resultados)
+console.log(`La palabra Javascript empieza en la posición: ${mensaje.match(/aprendiendo/gi)}`);
