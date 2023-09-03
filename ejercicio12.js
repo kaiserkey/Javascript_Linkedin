@@ -6,7 +6,7 @@ var mensaje = "Estoy aprendiendo Javascript y estoy aprendiendo mucho";
 
 console.log(mensaje);
 
-//a estas comillas `~ se les llama backticks o template literals
+//a estas comillas `` se les llama backticks o template literals
 
 //length (devuelve la longitud del string)
 console.log(`El texto tiene una longitud de: ${mensaje.length}`);
