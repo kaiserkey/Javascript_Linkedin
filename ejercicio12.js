@@ -62,5 +62,7 @@ console.log(`Repite el string el número de veces indicado: ${mensaje.repeat(3)}
 console.log(`Reemplaza el texto indicado por el nuevo texto: ${mensaje.replace("Javascript", "Python")}`);
 
 //split (divide el string en un array de strings)
+console.log(`Divide el string en un array de strings: ${mensaje.split(" ")}`);
+
 
 
