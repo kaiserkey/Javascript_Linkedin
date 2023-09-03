@@ -93,5 +93,3 @@ console.log(`Hola ${nombre} ${apellido}. Tienes ${edad} años.`); //se pueden us
 
 
 
-
-
