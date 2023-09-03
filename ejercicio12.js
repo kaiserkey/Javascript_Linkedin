@@ -11,4 +11,8 @@ console.log(`El texto tiene una longitud de: ${mensaje.length}`);
 console.log(`La palabra Javascript empieza en la posición: ${mensaje.indexOf("Javascript")}`);
 
 //lastIndexOf
-console.log(`La palabra Javascript empieza en la posición: ${mensaje.lastIndexOf("Javascript")}`);
+console.log(`La palabra Javascript empieza en la posición: ${mensaje.lastIndexOf("aprendiendo")}`);
+
+//search
+console.log(`La palabra Javascript empieza en la posición: ${mensaje.search("Javascript")}`);
+
