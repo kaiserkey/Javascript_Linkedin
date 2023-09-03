@@ -16,3 +16,4 @@ console.log(`La palabra Javascript empieza en la posición: ${mensaje.lastIndexO
 //search
 console.log(`La palabra Javascript empieza en la posición: ${mensaje.search("Javascript")}`);
 
+//match 
