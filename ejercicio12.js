@@ -102,7 +102,5 @@ console.log(typeof(numero.toString())); //convierte un número a string
 
 var mensaje = "Ayer fui a comprar unos tenis y después fuimos a comer";
 
-console.log(mensaje.indexOf("fui"));
-console.log(mensaje.lastIndexOf("fui"));
-console.log(mensaje.search("hoy"));
-console.log(mensaje.search(/un/));
+console.log(mensaje.substr(6,13));
+console.log(mensaje.substring(6,13));
