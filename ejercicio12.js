@@ -23,7 +23,7 @@ console.log(`La palabra Javascript empieza en la posición: ${mensaje.search(/ja
 console.log(`Devuelve la palabra aprendiendo : ${mensaje.match(/aprendiendo/gi)}`); //gi = global, case insensitive (no distingue mayúsculas de minúsculas)
 
 //substr (devuelve una subcadena)
-console.log(`La palabra aprendiendo empieza en la posición: ${mensaje.substr(6,11)}`); //substr(posición, longitud) esta funcion fue reemplazada por substring y slice (ver abajo)
+console.log(`Devuelve la palabra aprendiendo: ${mensaje.substr(6,11)}`); //substr(posición, longitud) esta funcion fue reemplazada por substring y slice (ver abajo)
 
 //substring (devuelve una subcadena)
 console.log(`Devuelve la palabra aprendiendo: ${mensaje.substring(6,17)}`); //substring(posición inicial, posición final)
