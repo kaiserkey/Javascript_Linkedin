@@ -19,8 +19,10 @@ console.log(`La palabra Javascript empieza en la posición: ${mensaje.search("Ja
 //search con expresiones regulares
 console.log(`La palabra Javascript empieza en la posición: ${mensaje.search(/ja/i)}`); 
 
-//match sin expresiones regulares (devuelve un array con los resultados)
-
 //match (devuelve un array con los resultados)
 console.log(`La palabra Javascript empieza en la posición: ${mensaje.match(/aprendiendo/gi)}`); //gi = global, case insensitive (no distingue mayúsculas de minúsculas)
+
+//substr (devuelve una subcadena)
+console.log(`La palabra Javascript empieza en la posición: ${mensaje.substr(6,11)}`); //substr(posición, longitud)
+
 
