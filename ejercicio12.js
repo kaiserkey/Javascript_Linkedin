@@ -98,9 +98,3 @@ console.log(mensaje.charAt(0)) //devuelve el caracter en la posición indicada
 //toString (convierte un número a string)
 var numero = 20;
 console.log(typeof(numero.toString())); //convierte un número a string
-
-
-var mensaje = "Ayer fui a comprar unos tenis y después fuimos a comer";
-
-console.log(mensaje.substr(6,13));
-console.log(mensaje.substring(6,13));
