@@ -89,7 +89,9 @@ var edad = 20;
 
 console.log(`Hola ${nombre} ${apellido}. Tienes ${edad} años.`); //se pueden usar expresiones dentro de las llaves
 
-console.log(mensaje[0])
+console.log(mensaje[0]) //devuelve el caracter en la posición indicada
+
+
 
 
 
