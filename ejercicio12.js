@@ -93,7 +93,7 @@ console.log(mensaje[0]) //devuelve el caracter en la posición indicada
 
 console.log(mensaje.charAt(0)) //devuelve el caracter en la posición indicada
 
-
+console.log(mensaje.charCodeAt(0)) //devuelve el código ASCII del caracter en la posición indicada
 
 
 
