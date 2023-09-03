@@ -29,5 +29,6 @@ console.log(`La palabra Javascript empieza en la posición: ${mensaje.substr(6,1
 console.log(`La palabra Javascript empieza en la posición: ${mensaje.substring(6,17)}`); //substring(posición inicial, posición final)
 
 //slice (devuelve una subcadena)
+console.log(`La palabra Javascript empieza en la posición: ${mensaje.slice(6,17)}`); //slice(posición inicial, posición final)
 
 
