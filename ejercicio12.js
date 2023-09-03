@@ -49,5 +49,9 @@ console.log(`Devuelve el texto sin espacios en blanco al principio y al final: $
 //startsWith (devuelve true si el string empieza con el texto indicado)
 console.log(`Devuelve true si el string empieza con el texto indicado: ${mensaje.startsWith("Estoy")}`);
 
+//endsWith (devuelve true si el string termina con el texto indicado)
+console.log(`Devuelve true si el string termina con el texto indicado: ${mensaje.endsWith("mucho")}`);
+
+
 
 
