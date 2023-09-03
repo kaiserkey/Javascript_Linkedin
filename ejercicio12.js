@@ -76,7 +76,6 @@ console.log(`Convierte el string a minúsculas: ${mensaje.toLowerCase()}`);
 //concat (concatena dos strings)
 console.log(`Concatena dos strings: ${mensaje.concat(" ", "y me divierto")}`);
 
-//concat (concatena dos strings)
-console.log(`Concatena dos strings: ${mensaje + " " + "y me divierto"}`);
+
 
 
