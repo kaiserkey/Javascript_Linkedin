@@ -93,6 +93,8 @@ console.log(mensaje[0]) //devuelve el caracter en la posición indicada
 
 console.log(mensaje.charAt(0)) //devuelve el caracter en la posición indicada
 
-
+//toString (convierte un número a string)
+var numero = 20;
+console.log(numero.toString()); //convierte un número a string
 
 
