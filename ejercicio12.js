@@ -52,6 +52,9 @@ console.log(`Devuelve true si el string empieza con el texto indicado: ${mensaje
 //endsWith (devuelve true si el string termina con el texto indicado)
 console.log(`Devuelve true si el string termina con el texto indicado: ${mensaje.endsWith("mucho")}`);
 
+//includes (devuelve true si el string contiene el texto indicado)
+console.log(`Devuelve true si el string contiene el texto indicado: ${mensaje.includes("aprendiendo")}`);
+
 
 
 
