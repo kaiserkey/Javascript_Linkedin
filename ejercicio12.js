@@ -18,3 +18,5 @@ console.log(`La palabra Javascript empieza en la posición: ${mensaje.search("Ja
 
 //search con expresiones regulares
 console.log(`La palabra Javascript empieza en la posición: ${mensaje.search(/ja/i)}`); 
+
+//match 
