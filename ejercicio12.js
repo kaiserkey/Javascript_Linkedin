@@ -77,6 +77,9 @@ console.log(`Convierte el string a minúsculas: ${mensaje.toLowerCase()}`);
 console.log(`Concatena dos strings: ${mensaje.concat(" ", "y me divierto")}`); //concat("string1", "string2")
 
 //padStart (añade caracteres al principio del string)
+console.log(`Añade caracteres al principio del string: ${mensaje.padStart(100, "Hola")}`); //padStart(longitud, "caracteres")
+
+
 
 
 
