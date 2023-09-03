@@ -25,4 +25,7 @@ console.log(`La palabra Javascript empieza en la posición: ${mensaje.match(/apr
 //substr (devuelve una subcadena)
 console.log(`La palabra Javascript empieza en la posición: ${mensaje.substr(6,11)}`); //substr(posición, longitud)
 
+//substring (devuelve una subcadena)
+console.log(`La palabra Javascript empieza en la posición: ${mensaje.substring(6,17)}`); //substring(posición inicial, posición final)
+
 
