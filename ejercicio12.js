@@ -91,6 +91,8 @@ console.log(`Hola ${nombre} ${apellido}. Tienes ${edad} años.`); //se pueden us
 
 console.log(mensaje[0]) //devuelve el caracter en la posición indicada
 
+console.log(mensaje.charAt(0)) //devuelve el caracter en la posición indicada
+
 
 
 
