@@ -20,7 +20,7 @@ console.log(`La palabra Javascript empieza en la posición: ${mensaje.search("Ja
 console.log(`La palabra Javascript empieza en la posición: ${mensaje.search(/ja/i)}`); 
 
 //match (devuelve un array con los resultados)
-console.log(`Devuelve la palabra aprendiendo : ${mensaje.match(/aprendiendo/gi)}`); //gi = global, case insensitive (no distingue mayúsculas de minúsculas)
+console.log(`Devuelve todas las coincidencias de la palabra aprendiendo: ${mensaje.match(/aprendiendo/gi)}`); //gi = global, case insensitive (no distingue mayúsculas de minúsculas)
 
 //substr (devuelve una subcadena)
 console.log(`Devuelve la palabra aprendiendo: ${mensaje.substr(6,11)}`); //substr(posición, longitud) esta funcion fue reemplazada por substring y slice (ver abajo)
