@@ -29,7 +29,7 @@ console.log(`La palabra aprendiendo empieza en la posición: ${mensaje.substr(6,
 console.log(`La palabra aprendiendo empieza en la posición: ${mensaje.substring(6,17)}`); //substring(posición inicial, posición final)
 
 //slice (devuelve una subcadena)
-console.log //slice(posición inicial, posición final)
+
 
 
 
