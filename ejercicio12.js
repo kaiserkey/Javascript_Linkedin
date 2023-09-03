@@ -65,6 +65,7 @@ console.log(`Reemplaza el texto indicado por el nuevo texto: ${mensaje.replace("
 console.log(`Divide el string en un array de strings: ${mensaje.split(" ")}`); //split("separador")
 
 //split (divide el string en un array de strings)
+console.log(`Divide el string en un array de strings: ${mensaje.split(" ", 3)}`); //split("separador", límite)
 
 
 
