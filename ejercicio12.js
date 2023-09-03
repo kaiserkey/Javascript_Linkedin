@@ -55,6 +55,7 @@ console.log(`Devuelve true si el string termina con el texto indicado: ${mensaje
 //includes (devuelve true si el string contiene el texto indicado)
 console.log(`Devuelve true si el string contiene el texto indicado: ${mensaje.includes("aprendiendo")}`);
 
-
+//repeat (repite el string el número de veces indicado)
+console.log(`Repite el string el número de veces indicado: ${mensaje.repeat(3)}`);
 
 
