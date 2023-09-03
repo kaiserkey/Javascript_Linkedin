@@ -59,5 +59,8 @@ console.log(`Devuelve true si el string contiene el texto indicado: ${mensaje.in
 console.log(`Repite el string el número de veces indicado: ${mensaje.repeat(3)}`);
 
 //replace (reemplaza el texto indicado por el nuevo texto)
+console.log(`Reemplaza el texto indicado por el nuevo texto: ${mensaje.replace("Javascript", "Python")}`);
+
+//split (divide el string en un array de strings)
 
 
