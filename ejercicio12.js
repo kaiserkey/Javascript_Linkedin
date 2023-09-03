@@ -43,6 +43,9 @@ console.log(`Devuelve la palabra desde el indice 6 en adelante: ${mensaje.slice(
 console.log(`Devuelve la palabra desde el indice -6 en adelante: ${mensaje.slice(-6)}`); //slice(posición inicial, posición final)
 
 //trim (elimina los espacios en blanco al principio y al final)
+var mensaje2 = "    Estoy aprendiendo Javascript y estoy aprendiendo mucho    ";
+console.log(`Devuelve el texto sin espacios en blanco al principio y al final: ${mensaje2.trim()}`);
 
+//
 
 
