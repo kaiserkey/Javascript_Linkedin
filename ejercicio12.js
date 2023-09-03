@@ -39,4 +39,7 @@ console.log(`Devuelve la palabra much: ${mensaje.slice(-6,-1)}`); //slice(posici
 //slice con un solo valor (devuelve una subcadena)
 console.log(`Devuelve la palabra desde el indice 6 en adelante: ${mensaje.slice(6)}`); //slice(posición inicial, posición final)
 
+//slice con un solo valor negativo (devuelve una subcadena)
+console.log(`Devuelve la palabra desde el indice 6 en adelante: ${mensaje.slice(-6)}`); //slice(posición inicial, posición final)
+
 
