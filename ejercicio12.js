@@ -42,4 +42,7 @@ console.log(`Devuelve la palabra desde el indice 6 en adelante: ${mensaje.slice(
 //slice con un solo valor negativo (devuelve una subcadena)
 console.log(`Devuelve la palabra desde el indice -6 en adelante: ${mensaje.slice(-6)}`); //slice(posición inicial, posición final)
 
+//trim (elimina los espacios en blanco al principio y al final)
+
+
 
