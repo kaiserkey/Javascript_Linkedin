@@ -79,6 +79,8 @@ console.log(`Concatena dos strings: ${mensaje.concat(" ", "y me divierto")}`); /
 //padStart (añade caracteres al principio del string)
 console.log(`Añade caracteres al principio del string: ${mensaje.padStart(100, "Hola")}`); //padStart(longitud, "caracteres")
 
+//padEnd (añade caracteres al final del string)
+console.log(`Añade caracteres al final del string: ${mensaje.padEnd(100, "Hola")}`); //padEnd(longitud, "caracteres")
 
 
 
