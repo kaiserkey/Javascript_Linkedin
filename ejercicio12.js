@@ -82,6 +82,11 @@ console.log(`Añade caracteres al principio del string: ${mensaje.padStart(100, 
 //padEnd (añade caracteres al final del string)
 console.log(`Añade caracteres al final del string: ${mensaje.padEnd(100, "Hola")}`); //padEnd(longitud, "caracteres")
 
+//Template strings (plantillas de texto)
+var nombre = "Juan";
+var apellido = "Gómez";
+var edad = 20;
+
 
 
 
