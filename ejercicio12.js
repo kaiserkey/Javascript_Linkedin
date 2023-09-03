@@ -26,7 +26,7 @@ console.log(`Devuelve la palabra aprendiendo : ${mensaje.match(/aprendiendo/gi)}
 console.log(`La palabra aprendiendo empieza en la posición: ${mensaje.substr(6,11)}`); //substr(posición, longitud) esta funcion fue reemplazada por substring y slice (ver abajo)
 
 //substring (devuelve una subcadena)
-console.log(`La palabra aprendiendo empieza en la posición: ${mensaje.substring(6,17)}`); //substring(posición inicial, posición final)
+console.log(`Devuelve la palabra aprendiendo: ${mensaje.substring(6,17)}`); //substring(posición inicial, posición final)
 
 //slice (devuelve una subcadena)
 console.log(`Devuelve la palabra aprendiendo: ${mensaje.slice(6,17)}`); //slice(posición inicial, posición final)
