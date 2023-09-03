@@ -13,10 +13,10 @@ console.log(`La palabra Javascript empieza en la posición: ${mensaje.indexOf("J
 //lastIndexOf
 console.log(`La palabra Javascript empieza en la posición: ${mensaje.lastIndexOf("aprendiendo")}`);
 
-//search
+//search (devuelve la posición de la primera coincidencia)
 console.log(`La palabra Javascript empieza en la posición: ${mensaje.search("Javascript")}`);
 
 //search con expresiones regulares
 console.log(`La palabra Javascript empieza en la posición: ${mensaje.search(/ja/i)}`); 
 
-//match 
+//match (devuelve un array con los resultados)
