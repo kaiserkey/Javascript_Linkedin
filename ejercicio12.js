@@ -35,6 +35,6 @@ console.log(`Devuelve la palabra aprendiendo: ${mensaje.slice(6,17)}`); //slice(
 console.log(`Devuelve la palabra much: ${mensaje.slice(-6,-1)}`); //slice(posición inicial, posición final)
 
 //slice con un solo valor (devuelve una subcadena)
-console.log(`Devuelve la palabra much: ${mensaje.slice(6)}`); //slice(posición inicial, posición final)
+console.log(`Devuelve la palabra desde : ${mensaje.slice(6)}`); //slice(posición inicial, posición final)
 
 
