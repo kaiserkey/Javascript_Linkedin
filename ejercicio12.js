@@ -46,6 +46,8 @@ console.log(`Devuelve la palabra desde el indice -6 en adelante: ${mensaje.slice
 var mensaje2 = "    Estoy aprendiendo Javascript y estoy aprendiendo mucho    ";
 console.log(`Devuelve el texto sin espacios en blanco al principio y al final: ${mensaje2.trim()}`);
 
-//
+//startsWith (devuelve true si el string empieza con el texto indicado)
+console.log(`Devuelve true si el string empieza con el texto indicado: ${mensaje.startsWith("Estoy")}`);
+
 
 
