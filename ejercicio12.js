@@ -95,6 +95,6 @@ console.log(mensaje.charAt(0)) //devuelve el caracter en la posición indicada
 
 //toString (convierte un número a string)
 var numero = 20;
-console.log(numero.toString()); //convierte un número a string
+console.log(numero.toString().t); //convierte un número a string
 
 
