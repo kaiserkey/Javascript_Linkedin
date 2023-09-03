@@ -5,4 +5,4 @@
 var mensaje = "Estoy aprendiendo Javascript";
 
 //tamaño de un string
-console.log(`{mensaje.length}`);
+console.log(    {mensaje.length});
